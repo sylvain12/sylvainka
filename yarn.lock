@@ -1724,6 +1724,11 @@ https-browserify@1.0.0:
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
 
+iconoir-react@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/iconoir-react/-/iconoir-react-2.1.0.tgz#decfafbdc19851e9e6cc09203ad8550ff6963b86"
+  integrity sha512-PMrSTrTI4iksFrZvPnlQraQdDOE5yEe/Z4O0+v5O7mNbwLFDqCVgtDp6fyR9EDVeIyiPY9/YDfq++eII+DH4rw==
+
 iconoir@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/iconoir/-/iconoir-1.0.0.tgz#8c9ade1c12044872dda1fdef5b0f5fc643cd4bc8"
