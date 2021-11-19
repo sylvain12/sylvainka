@@ -483,6 +483,13 @@ ajv@^8.0.1:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
+akar-icons@^1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/akar-icons/-/akar-icons-1.9.3.tgz#a6e5ff2fa36184850aac8b74c95249a8c8d351aa"
+  integrity sha512-vAoTJx3s93erYIg6+QOG0bysQLSFwgt0f+Uj6P04Y4RDuhVLU7ZhteNAT0iRsbxlg4F4fljFVPR/MLRxCgKsTw==
+  dependencies:
+    prop-types "^15.7.2"
+
 anser@1.4.9:
   version "1.4.9"
   resolved "https://registry.yarnpkg.com/anser/-/anser-1.4.9.tgz#1f85423a5dcf8da4631a341665ff675b96845760"
@@ -1716,6 +1723,11 @@ https-browserify@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-1.0.0.tgz#ec06c10e0a34c0f2faf199f7fd7fc78fffd03c73"
   integrity sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM=
+
+iconoir@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/iconoir/-/iconoir-1.0.0.tgz#8c9ade1c12044872dda1fdef5b0f5fc643cd4bc8"
+  integrity sha512-rZ4ZMMOarUfsRrfH7h3MGIFVNrcWsThtJWpTuZOp/FYhSomaa32HhHg8WH0V3VlN7MIVK4VMD2O7jNq6jRKY3w==
 
 iconv-lite@0.4.24:
   version "0.4.24"
