@@ -1,12 +1,11 @@
 import type { NextPage } from "next";
 import GlobalStyle from "../src/theme/globalStyles";
-import Wrapper from "../src/components/styled/Wrapper.style";
-import StyleHeader from "../src/components/Header";
 import Head from "next/head";
 import Theme from "../src/theme/theme";
 import { ThemeProvider } from "styled-components";
 import About from "../src/components/About";
 import Header from "../src/components/Header";
+import Contact from '../src/components/Contact';
 
 const Home: NextPage = () => {
   return (
@@ -31,6 +30,7 @@ const Home: NextPage = () => {
       <GlobalStyle />
       <Header />
       <About />
+      <Contact />
       {
         /* <Wrapper>
         <p>Personal website</p>
