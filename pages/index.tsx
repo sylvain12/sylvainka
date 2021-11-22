@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
-import GlobalStyle from "../theme/globalStyles";
-import Wrapper from "../components/styled/Wrapper.style";
-import Header from "../components/Header";
+import GlobalStyle from "../src/theme/globalStyles";
+import Wrapper from "../src/components/styled/Wrapper.style";
+import StyleHeader from "../src/components/Header";
 import Head from "next/head";
-import Theme from "../theme/theme";
+import Theme from "../src/theme/theme";
 import { ThemeProvider } from "styled-components";
 
 const Home: NextPage = () => {
@@ -20,12 +20,19 @@ const Home: NextPage = () => {
           href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;500;700&display=swap"
           rel="stylesheet"
         />
+
+        <link
+          href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <GlobalStyle />
-      <Header />
-      <Wrapper>
+      <StyleHeader />
+      {
+        /* <Wrapper>
         <p>Personal website</p>
-      </Wrapper>
+      </Wrapper> */
+      }
     </ThemeProvider>
   );
 };
