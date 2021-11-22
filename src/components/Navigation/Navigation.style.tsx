@@ -6,6 +6,7 @@ export const Logo = styled(Image)`
   
 `;
 
+// Navbar
 export const Nav = styled.div`
   padding: 2rem 4rem;
   display: flex;
@@ -32,21 +33,45 @@ export const NavItem = styled.div`
     color: var(--main-color);
     text-transform: uppercase;
     font-weight: var(--fw-medium);
+    font-size: 1.6rem;
+    position: relative;
+    transition: opacity .2s;
+
+  }
+
+  & a::before {
+    content: '';
+    position: absolute;
+    bottom: -.5rem;
+    right: 0;
+    height: 3px;
+    width: 0;
+    background: var(--second-color);
+    transition: width .2s;
+  }
+
+  & a:hover  {
+    opacity: .5;
+
+    &::before{
+      width: 2rem;
+    }
   }
 
   & a svg {
     color: var(--second-color);
-    width: 20!important;
-    height: 20!important;
-    margin-right: .4rem;
-   
+    width: 20;
+    height: 20;
+    margin-right: 1rem;
   }
 
   &:not(:last-child) {
     margin-right: 4rem;
   }
 `;
+// End
 
+// Social style
 export const NavSocial = styled.div`
   top: 4rem;
   left: 4rem;
@@ -71,6 +96,20 @@ export const NavSocialList = styled.ul`
 `;
 
 export const NavSocialItem = styled.li`
+
+  & a {
+    color: var(--main-color);
+
+    svg {
+      color: var(--main-color);
+      height: 22;
+      width: 22;
+    }
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
   
 `;
 
@@ -84,7 +123,11 @@ export const NavSocialLink = styled(Link)`
   }
 `;
 
+// END
+
+// Contact style
 export const NavContact = styled.div`
   /* justify-self: flex-end;
   margin-left: auto; */
 `;
+// END
