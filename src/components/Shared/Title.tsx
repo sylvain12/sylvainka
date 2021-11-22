@@ -42,7 +42,6 @@ const StyledTitle = styled.h3`
 `;
 
 const TitlePoctuation = styled.span`
-  /* display:  ${(props) => props.showPonctuation ? "inline-block" : "none"}; */
   display: inline-block;
   font-size: inherit;
   color: var(--second-color);
