@@ -5,6 +5,8 @@ import StyleHeader from "../src/components/Header";
 import Head from "next/head";
 import Theme from "../src/theme/theme";
 import { ThemeProvider } from "styled-components";
+import About from "../src/components/About";
+import Header from "../src/components/Header";
 
 const Home: NextPage = () => {
   return (
@@ -27,7 +29,8 @@ const Home: NextPage = () => {
         />
       </Head>
       <GlobalStyle />
-      <StyleHeader />
+      <Header />
+      <About />
       {
         /* <Wrapper>
         <p>Personal website</p>

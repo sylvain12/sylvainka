@@ -1,12 +1,17 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
 import Hero from "../Hero/Hero";
+import styled from "styled-components";
 
 export default function Header() {
   return (
-    <div>
+    <HeaderWrapper>
       <Navigation />
       <Hero />
-    </div>
+    </HeaderWrapper>
   );
 }
+
+const HeaderWrapper = styled.div`
+  height: 100vh;
+`;
