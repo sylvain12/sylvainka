@@ -13,6 +13,7 @@ const StyledTitle = styled.h3`
   display: inline-block;
   font-size: 3rem;
   font-weight: var(--fw-light);
+  margin-bottom: 4rem;
 
   &::after {
     content: '';
@@ -21,6 +22,7 @@ const StyledTitle = styled.h3`
     height: 4px;
     width: 5rem;
     bottom: -1rem;
+
     ${(props) =>
   props.showBar && props.barPosition === "center" && css`
       left: 50%;
