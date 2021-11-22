@@ -88,3 +88,22 @@ export const HeroDetail = styled.p`
   display: inline-block;
   max-width: 580px;
 `;
+
+export const HeroScroll = styled.div`
+  display: block;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 8rem;
+  cursor: pointer;
+
+  & a {
+    font-weight: var(--fw-thin);
+    color: var(--main-color);
+
+    svg {
+      stroke-width: .5px;
+    }
+  }
+
+
+`;

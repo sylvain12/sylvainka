@@ -5,11 +5,13 @@ import {
   HeroIntro,
   HeroJob,
   HeroName,
+  HeroScroll,
   HeroSubIntro,
   HeroTitle,
   HeroWrapper,
 } from "./Hero.style";
-import { Container } from "../Shared/Container";
+import { ArrowDown } from "iconoir-react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -35,6 +37,14 @@ export default function Hero() {
         consequatur assumenda repudiandae tenetur aspernatur nostrum similique
         temporibus illum.
       </HeroDetail>
+
+      <HeroScroll>
+        <Link href="#about">
+          <a>
+            <ArrowDown />
+          </a>
+        </Link>
+      </HeroScroll>
     </HeroWrapper>
   );
 }
