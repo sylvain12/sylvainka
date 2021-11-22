@@ -13,14 +13,14 @@ const StyledTitle = styled.h3`
   display: inline-block;
   font-size: 3rem;
   font-weight: var(--fw-light);
-  margin-bottom: 4rem;
+  margin-bottom: ${props => props.showBar ? '4rem': '2rem'};
 
   &::after {
     content: '';
     position: absolute;
     background: var(--second-color);
     height: 4px;
-    width: 5rem;
+    width: ${props => props.showBar ? '5rem': '0'};
     bottom: -1rem;
 
     ${(props) =>
