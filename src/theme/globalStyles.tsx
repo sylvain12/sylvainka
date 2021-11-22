@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
 
     /* font */
     --ff: 'JetBrains Mono', monospace;
-    --ff-serif: '';
+    --ff-variant: 'Arvo', serif;
 
     --fw-thin: 100;
     --fw-light: 300;
