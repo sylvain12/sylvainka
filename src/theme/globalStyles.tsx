@@ -45,7 +45,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     background: #BFD7ED;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     color: #003B73;
     font-weight: 300;
   }
