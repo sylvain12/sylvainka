@@ -13,5 +13,5 @@ export default function Header() {
 }
 
 const HeaderWrapper = styled.div`
-  height: 100vh;
+  min-height: 100vh;
 `;

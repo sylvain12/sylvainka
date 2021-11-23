@@ -4,7 +4,7 @@ import {
   HeroHilight,
   HeroIntro,
   HeroJob,
-  HeroName,
+  // HeroName,
   HeroScroll,
   HeroSubIntro,
   HeroTitle,

@@ -1,9 +1,8 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const HeroWrapper = styled.div`
   max-width: 756px;
   width: 80%auto;
-  /* text-align: center; */
   margin: 0 auto;
 `;
 
@@ -17,7 +16,7 @@ export const HeroIntro = styled.span`
   border-bottom: 1px solid var(--main-color-light);
 `;
 
-export const HeroTitle = styled.p`
+export const HeroTitle = styled.h1`
   font-size: 2.5rem;
   margin-bottom: .5rem;
   color: var(--second-color);
@@ -35,9 +34,7 @@ export const HeroName = styled.span`
   font-weight: var(--fw-bold);
   font-family: var(--ff);
   opacity: .85;
-  /* text-transform: uppercase; */
   font-family: 'cascadia code';
-  /* font-style: italic; */
 `;
 
 export const HeroJob = styled.p`
@@ -47,7 +44,6 @@ export const HeroJob = styled.p`
   font-weight: var(--fw-bold);
   position: relative;
   color: var(--main-color);
-  /* font-family: 'Cascadia Code'; */
 
   &::before {
     content: '';
