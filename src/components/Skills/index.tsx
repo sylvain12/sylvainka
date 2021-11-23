@@ -86,6 +86,7 @@ export default function Skills() {
 const SkillsLayout = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `
 
 const SkillsContent = styled.div`
