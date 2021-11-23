@@ -133,8 +133,12 @@ const AboutLanguageListItem = styled.li`
   align-items: center;
   font-weight: var(--fw-medium);
 
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
   &:nth-child(1) {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     font-weight: var(--fw-light);
     text-transform: uppercase;
   }
@@ -146,7 +150,8 @@ const AboutLanguageListItem = styled.li`
 `;
 
 const AboutDescription = styled.p`
-  font-size: 1.7rem;
+  line-height: 1.8;
+  text-align: justify;
   &:not(:last-child) {
     margin-bottom: 2.2rem;
   }
