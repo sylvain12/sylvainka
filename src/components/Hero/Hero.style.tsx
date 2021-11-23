@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const HeroWrapper = styled.div`
-  max-width: 756px;
-  width: 80%auto;
-  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 `;
 
 export const HeroIntro = styled.span`
