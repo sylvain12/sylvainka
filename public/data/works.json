@@ -10,11 +10,11 @@
       "technologies": [
         {
           "name": "Svelte",
-          "url": "svelte.dev"
+          "url": "https://svelte.dev"
         },
         {
           "name": "Vercel",
-          "url": "svelte.dev"
+          "url": "https://svelte.dev"
         }
       ]
     },
@@ -28,11 +28,11 @@
       "technologies": [
         {
           "name": "Svelte",
-          "url": "svelte.dev"
+          "url": "https://svelte.dev"
         },
         {
           "name": "Vercel",
-          "url": "svelte.dev"
+          "url": "https://svelte.dev"
         }
       ]
     },
@@ -46,11 +46,11 @@
       "technologies": [
         {
           "name": "Svelte",
-          "url": "svelte.dev"
+          "url": "https://svelte.dev"
         },
         {
           "name": "Vercel",
-          "url": "svelte.dev"
+          "url": "https://svelte.dev"
         }
       ]
     }

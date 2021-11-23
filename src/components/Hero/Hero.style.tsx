@@ -33,8 +33,9 @@ export const HeroName = styled.span`
   color: var(--main-color);
   font-weight: var(--fw-bold);
   font-family: var(--ff);
-  opacity: .85;
-  font-family: 'cascadia code';
+  opacity: .65;
+  text-transform: uppercase;
+  font-style: italic;
 `;
 
 export const HeroJob = styled.p`

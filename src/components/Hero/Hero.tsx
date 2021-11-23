@@ -4,7 +4,7 @@ import {
   HeroHilight,
   HeroIntro,
   HeroJob,
-  // HeroName,
+  HeroName,
   HeroScroll,
   HeroSubIntro,
   HeroTitle,
@@ -17,8 +17,8 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <HeroIntro>
-        Hi, i am
-        {/* - <HeroName>Sylvain Kadjo</HeroName> */}
+        Hi, i am 
+        - <HeroName>Sylvain Kadjo</HeroName>
       </HeroIntro>
 
       <HeroTitle>
