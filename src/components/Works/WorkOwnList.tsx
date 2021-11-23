@@ -11,6 +11,7 @@ interface Tech {
 }
 
 interface WorkOwnItemProps {
+  id: number
   name: string
   image: ""
   description: string
@@ -22,7 +23,7 @@ interface WorkOwnItemProps {
 export default function WorkOwnList({works}: WorkOwnItemProps[]) {
   return (
     <StyledWorkOwnItem>
-      {works.map((work: WorkOwnItemProps) => <WorkOwnItem key={work.name} work={work} />)}
+      {works.map((work: WorkOwnItemProps) => <WorkOwnItem key={work.id} work={work} />)}
     </StyledWorkOwnItem>
   )
 }

@@ -1,18 +1,22 @@
 {
   "programing": [
     {
+      "id": 1,
       "name": "Python",
       "icon": "akar-icons:python-fill"
     },
     {
+      "id": 2,
       "name": "JavaScript",
       "icon": "akar-icons:javascript-fill"
     },
     {
+      "id": 3,
       "name": "HTML",
       "icon": "fontisto:html5"
     },
     {
+      "id": 4,
       "name": "CSS",
       "icon": "uiw:css3"
     }
@@ -20,60 +24,74 @@
 
   "tools": [
     {
+      "id": 1,
       "name": "Django",
       "icon": "akar-icons:django-fill"
     },
     {
+      "id": 2,
       "name": "Flask",
       "icon": "cib:flask"
     },
     {
+      "id": 3,
       "name": "FastAPI",
       "icon": "simple-icons:fastapi"
     },
     {
+      "id": 4,
       "name": "Node.JS",
       "icon": "bx:bxl-nodejs"
     },
     {
+      "id": 5,
       "name": "Express",
       "icon": "simple-icons:express"
     },
     {
+      "id": 6,
       "name": "React",
       "icon": "akar-icons:react-fill"
     },
     {
+      "id": 7,
       "name": "Angular",
       "icon": "akar-icons:angular-fill"
     },
     {
+      "id": 8,
       "name": "Next.JS",
       "icon": "akar-icons:nextjs-fill"
     },
     {
+      "id": 9,
       "name": "Sass",
       "icon": "cib:sass-alt"
     },
     {
+      "id": 10,
       "name": "Wordpress",
       "icon": "bi:wordpress"
     },
     {
+      "id": 11,
       "name": "VSCode",
       "icon": "akar-icons:vscode-fill"
     },
     {
+      "id": 12,
       "name": "Git",
       "icon": "bi:git"
     }
   ],
   "design": [
     {
+      "id": 1,
       "name": "Figma",
       "icon": "akar-icons:figma-fill"
     },
     {
+      "id": 2,
       "name": "Adobe XD",
       "icon": "ci:adobe-xd"
     }
@@ -81,22 +99,27 @@
 
   "dataScience": [
     {
+      "id": 1,
       "name": "Numpy",
       "icon": "file-icons:numpy"
     },
     {
+      "id": 2,
       "name": "Pandas",
       "icon": "simple-icons:pandas"
     },
     {
+      "id": 3,
       "name": "SQL",
       "icon": "carbon:sql"
     },
     {
+      "id": 4,
       "name": "Tableau",
       "icon": "cib:tableau"
     },
     {
+      "id": 5,
       "name": "Excel",
       "icon": "ri:file-excel-2-line"
     }

@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Icon } from '@iconify/react';
 
 interface SKillIconProps {
+  id: string
   icon: string
   name: string
 }
@@ -10,7 +11,7 @@ interface SKillIconProps {
 export default function SkillsIcon({icons}: SKillIconProps[]) {
   return (
     <IconList>
-      {icons.map(({icon, name}:SKillIconProps) => <IconListitem key={icon} icon={icon} name={name} />)}
+      {icons.map(({id, icon, name}:SKillIconProps) => <IconListitem key={id} icon={icon} name={name} />)}
     </IconList>
   )
 }

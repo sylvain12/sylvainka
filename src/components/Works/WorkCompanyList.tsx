@@ -15,7 +15,7 @@ interface WorkCompanyProps {
 export default function WorkCompanyList({companies}: WorkCompanyProps[]) {
   return (
     <WorkComanyWrapper>
-      {companies.map((company: WorkCompanyProps) => <WorkCompanyItem key="id" company={company}></WorkCompanyItem>)}
+      {companies.map((company: WorkCompanyProps) => <WorkCompanyItem key={company.id} company={company}></WorkCompanyItem>)}
     </WorkComanyWrapper>
   )
 }
