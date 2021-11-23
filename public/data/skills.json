@@ -1,0 +1,104 @@
+{
+  "programing": [
+    {
+      "name": "Python",
+      "icon": "akar-icons:python-fill"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "akar-icons:javascript-fill"
+    },
+    {
+      "name": "HTML",
+      "icon": "fontisto:html5"
+    },
+    {
+      "name": "CSS",
+      "icon": "uiw:css3"
+    }
+  ],
+
+  "tools": [
+    {
+      "name": "Django",
+      "icon": "akar-icons:django-fill"
+    },
+    {
+      "name": "Flask",
+      "icon": "cib:flask"
+    },
+    {
+      "name": "FastAPI",
+      "icon": "simple-icons:fastapi"
+    },
+    {
+      "name": "Node.JS",
+      "icon": "bx:bxl-nodejs"
+    },
+    {
+      "name": "Express",
+      "icon": "simple-icons:express"
+    },
+    {
+      "name": "React",
+      "icon": "akar-icons:react-fill"
+    },
+    {
+      "name": "Angular",
+      "icon": "akar-icons:angular-fill"
+    },
+    {
+      "name": "Next.JS",
+      "icon": "akar-icons:nextjs-fill"
+    },
+    {
+      "name": "Sass",
+      "icon": "cib:sass-alt"
+    },
+    {
+      "name": "Wordpress",
+      "icon": "bi:wordpress"
+    },
+    {
+      "name": "VSCode",
+      "icon": "akar-icons:vscode-fill"
+    },
+    {
+      "name": "Git",
+      "icon": "bi:git"
+    }
+  ],
+  "design": [
+    {
+      "name": "Figma",
+      "icon": "akar-icons:figma-fill"
+    },
+    {
+      "name": "Adobe XD",
+      "icon": "ci:adobe-xd"
+    }
+  ],
+
+  "dataScience": [
+    {
+      "name": "Numpy",
+      "icon": "file-icons:numpy"
+    },
+    {
+      "name": "Pandas",
+      "icon": "simple-icons:pandas"
+    },
+    {
+      "name": "SQL",
+      "icon": "carbon:sql"
+    },
+    {
+      "name": "Tableau",
+      "icon": "cib:tableau"
+    },
+    {
+      "name": "Excel",
+      "icon": "ri:file-excel-2-line"
+    }
+  ]
+}

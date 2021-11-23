@@ -6,6 +6,7 @@ import { ThemeProvider } from "styled-components";
 import About from "../src/components/About";
 import Header from "../src/components/Header";
 import Contact from '../src/components/Contact';
+import Skills from '../src/components/Skills';
 
 const Home: NextPage = () => {
   return (
@@ -30,6 +31,7 @@ const Home: NextPage = () => {
       <GlobalStyle />
       <Header />
       <About />
+      <Skills />
       <Contact />
       {
         /* <Wrapper>
