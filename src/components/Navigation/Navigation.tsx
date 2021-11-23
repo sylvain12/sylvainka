@@ -31,8 +31,8 @@ export default function Navigation() {
     <Nav>
       <NavSocial>
         <Logo src="/Logo.svg" width="50" height="50" alt="Logo" />
-        <NavSocialLine />
         <NavSocialList>
+          <NavSocialLine />
           <NavSocialItem>
             <NavSocialLink href="#">
               <a>

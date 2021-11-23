@@ -93,6 +93,10 @@ export const NavSocialList = styled.ul`
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 4rem;
+  transform: translateY(-50%);
 `;
 
 export const NavSocialItem = styled.li`
