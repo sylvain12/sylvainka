@@ -7,6 +7,7 @@ import About from "../src/components/About";
 import Header from "../src/components/Header";
 import Contact from '../src/components/Contact';
 import Skills from '../src/components/Skills';
+import Works from '../src/components/Works';
 
 const Home: NextPage = () => {
   return (
@@ -32,6 +33,7 @@ const Home: NextPage = () => {
       <Header />
       <About />
       <Skills />
+      <Works />
       <Contact />
       {
         /* <Wrapper>

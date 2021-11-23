@@ -1,0 +1,98 @@
+{
+  "owns": [
+    {
+      "name": "INFOCOVID-19",
+      "image": "/assets/work_1.png",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa at saepe nihil exercitationem voluptatum! Provident?",
+      "link": "",
+      "githubLink": "",
+      "technologies": [
+        {
+          "name": "Svelte",
+          "url": "svelte.dev"
+        },
+        {
+          "name": "Vercel",
+          "url": "svelte.dev"
+        }
+      ]
+    },
+    {
+      "name": "INFOCOVID-19 2",
+      "image": "/assets/work_1.png",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa at saepe nihil exercitationem voluptatum! Provident?",
+      "link": "",
+      "githubLink": "",
+      "technologies": [
+        {
+          "name": "Svelte",
+          "url": "svelte.dev"
+        },
+        {
+          "name": "Vercel",
+          "url": "svelte.dev"
+        }
+      ]
+    },
+    {
+      "name": "INFOCOVID-19 3",
+      "image": "/assets/work_1.png",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa at saepe nihil exercitationem voluptatum! Provident?",
+      "link": "",
+      "githubLink": "",
+      "technologies": [
+        {
+          "name": "Svelte",
+          "url": "svelte.dev"
+        },
+        {
+          "name": "Vercel",
+          "url": "svelte.dev"
+        }
+      ]
+    }
+  ],
+
+  "companies": [
+    {
+      "id": 1,
+      "name": "MandE",
+      "type": "Web app",
+      "url": "https://mande.ci",
+      "image": "/assets/work_1.png",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa"
+    },
+    {
+      "id": 2,
+      "name": "MandE",
+      "type": "Web app",
+      "url": "https://mande.ci",
+      "image": "/assets/work_1.png",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa"
+    },
+    {
+      "id": 3,
+      "name": "MandE",
+      "type": "Web app",
+      "url": "https://mande.ci",
+      "image": "/assets/work_1.png",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa"
+    },
+    {
+      "id": 4,
+      "name": "MandE",
+      "type": "Web app",
+      "url": "https://mande.ci",
+      "image": "/assets/work_1.png",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa"
+    },
+    {
+      "id": 4,
+      "name": "MandE",
+      "type": "Web app",
+      "url": "https://mande.ci",
+      "image": "/assets/work_1.png",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa"
+    }
+  ]
+}
