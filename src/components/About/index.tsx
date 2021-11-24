@@ -93,10 +93,9 @@ const AboutLayout = styled.div`
 
 const AboutImageBG = styled.div`
   background: var(--white-color);
-  width: 100%;
-  height: 100%;
-  transform: translate(-10px, 4px) rotate(-7deg);
-  transform-origin: center top;
+  width: 95%;
+  height: 95%;
+  transform: translate(10px, -5px) rotate(-7deg);
   position: absolute;
   left: 0;
   top: 0;
