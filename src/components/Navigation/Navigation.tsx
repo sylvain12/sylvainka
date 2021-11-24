@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import {useRouter} from 'next/router'
 import {
   Logo,
   Nav,
@@ -26,6 +27,11 @@ import {
 } from "iconoir-react";
 
 export default function Navigation() {
+  const route = useRouter();
+  const handleScrollToContact = (): void => {
+    route.push("#contact");
+  }
+
   return (
     <Nav>
       <NavSocial>
@@ -104,7 +110,7 @@ export default function Navigation() {
         </NavItem>
 
         <NavContact>
-          <Button variant="secondary">Contact</Button>
+          <Button variant="secondary" onClick={handleScrollToContact}>Contact</Button>
         </NavContact>
       </NavList>
     </Nav>
