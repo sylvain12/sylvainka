@@ -24,13 +24,14 @@ export default function Contact() {
 
         <ContactFooter>
           <p>
-            Design and build with ♥️ by  
+            Designed & built with ♥️ by  
             <Link href="https://github.com/sylvain12">
               <a target='_blank'>sylvain kadjo</a>
             </Link>
           </p>
+          <span>software developer from 🇨🇮</span>
 
-          <ContactFooterSocialList>
+          {/* <ContactFooterSocialList>
             <ContactFooterSocialListItem>
               <Link href="#">
                 <a target='_blank'>
@@ -70,7 +71,7 @@ export default function Contact() {
                 </a>
               </Link>
             </ContactFooterSocialListItem>
-          </ContactFooterSocialList>
+          </ContactFooterSocialList> */}
 
         </ContactFooter>
       </ContactWrapper>
@@ -99,7 +100,8 @@ const ContactFooter  = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
 
     a {
       margin-left: 1rem;
@@ -107,6 +109,10 @@ const ContactFooter  = styled.div`
       color: var(--main-color);
       font-weight: var(--fw-medium);
     }
+  }
+
+  & span {
+    font-size: 1.3rem;
   }
 `
 
