@@ -11,7 +11,7 @@ import Title from '../Shared/Title';
 export default function Skills() {
   const {programing, tools, design, dataScience} = data
   return (
-    <Container>
+    <Container id="skills">
       <div style={{marginBottom:"8rem", textAlign:'center'}}>
         <Title>My Skills</Title>
         <p style={{width: '450px', margin: '0 auto'}}>The skills, tools and technologies I use to bring your products to life</p>

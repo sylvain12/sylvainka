@@ -8,7 +8,7 @@ import {GitHub, Twitter, LinkedIn, Codepen, Instagram} from 'iconoir-react';
 
 export default function Contact() {
   return (
-    <Container style={{marginBottom: '3rem'}}>
+    <Container id="contact" style={{marginBottom: '3rem'}}>
       <ContactWrapper>
         <Title showBar={false} showPonctuation={false}>
           Get in touch

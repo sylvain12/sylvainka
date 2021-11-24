@@ -14,7 +14,7 @@ export default function Works() {
   const companiesData = data.companies;
 
   return (
-    <Container>
+    <Container id="work">
       <div style={{textAlign:'center', marginBottom:'10rem'}}>
         <Title>Works</Title>
         <p style={{width:'500px', margin:'0 auto'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa at saepe.</p>

@@ -7,7 +7,7 @@ import { Code, NavArrowRight } from "iconoir-react";
 
 export default function About() {
   return (
-    <Container>
+    <Container id="about">
       <AboutLayout>
         <AboutWrapper className="left">
           <div
