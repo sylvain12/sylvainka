@@ -27,15 +27,7 @@ export default function Contact() {
         </Button>
 
         <ContactFooter>
-          <p>
-            Designed & built with ♥️ by  
-            <Link href="https://github.com/sylvain12">
-              <a target='_blank'>sylvain kadjo</a>
-            </Link>
-          </p>
-          <span>software developer from 🇨🇮</span>
-
-          {/* <ContactFooterSocialList>
+          <ContactFooterSocialList>
             <ContactFooterSocialListItem>
               <Link href="#">
                 <a target='_blank'>
@@ -75,7 +67,15 @@ export default function Contact() {
                 </a>
               </Link>
             </ContactFooterSocialListItem>
-          </ContactFooterSocialList> */}
+          </ContactFooterSocialList>
+
+          <p>
+            Designed & built with ♥️ by  
+            <Link href="https://github.com/sylvain12">
+              <a target='_blank'>sylvain kadjo</a>
+            </Link>
+          </p>
+          <span>software developer from 🇨🇮</span>
 
         </ContactFooter>
       </ContactWrapper>
@@ -124,6 +124,7 @@ const ContactFooterSocialList = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1.5rem;
 `
 
 const ContactFooterSocialListItem = styled.li`
