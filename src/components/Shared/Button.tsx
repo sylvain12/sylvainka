@@ -60,6 +60,6 @@ const StyledButton = styled.button`
 
 `;
 
-export default function Button({ variant = "default", children }: ButtonProps) {
-  return <StyledButton variant={variant}>{children}</StyledButton>;
+export default function Button({ variant = "default", children, ...rest }: ButtonProps) {
+  return <StyledButton variant={variant} {...rest}>{children}</StyledButton>;
 }

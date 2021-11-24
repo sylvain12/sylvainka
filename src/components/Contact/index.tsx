@@ -7,6 +7,10 @@ import Link from 'next/link'
 import {GitHub, Twitter, LinkedIn, Codepen, Instagram} from 'iconoir-react';
 
 export default function Contact() {
+  const handleSayHello = (): void => {
+    console.log(event)
+  }
+
   return (
     <Container id="contact" style={{marginBottom: '3rem'}}>
       <ContactWrapper>
@@ -18,7 +22,7 @@ export default function Contact() {
         </ContactSubTitle>
 
 
-        <Button variant='primary'>
+        <Button variant='primary' onClick={handleSayHello}>
           Say Hello
         </Button>
 
