@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
 import {
   Logo,
   Nav,
@@ -30,7 +29,12 @@ export default function Navigation() {
   return (
     <Nav>
       <NavSocial>
-        <Logo src="/Logo.svg" width="50" height="50" alt="Logo" />
+        <Link href="/">
+          <a href="">
+            <Logo src="/Logo.svg" width="50" height="50" alt="Logo" />
+          </a>
+        </Link>
+        
         <NavSocialList>
           <NavSocialLine />
           <NavSocialItem>
