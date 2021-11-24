@@ -38,37 +38,37 @@ export default function Navigation() {
         <NavSocialList>
           <NavSocialLine />
           <NavSocialItem>
-            <NavSocialLink href="#">
-              <a>
+            <NavSocialLink href="https://github.com/sylvain12">
+              <a target="_blank">
                 <GitHub />
               </a>
             </NavSocialLink>
           </NavSocialItem>
           <NavSocialItem>
-            <NavSocialLink href="#">
-              <a>
+            <NavSocialLink href="https://codepen.io/sylvain12">
+              <a target="_blank">
                 <Codepen />
               </a>
             </NavSocialLink>
           </NavSocialItem>
           <NavSocialItem>
-            <NavSocialLink href="#">
-              <a>
-                <Instagram />
+            <NavSocialLink href="https://www.linkedin.com/in/sylvain-kadjo-374a4911b/">
+              <a target="_blank">
+                <LinkedIn />
               </a>
             </NavSocialLink>
           </NavSocialItem>
           <NavSocialItem>
-            <NavSocialLink href="#">
-              <a>
+            <NavSocialLink href="https://twitter.com/sylvainka12">
+              <a target="_blank">
                 <Twitter />
               </a>
             </NavSocialLink>
           </NavSocialItem>
           <NavSocialItem>
-            <NavSocialLink href="#">
-              <a>
-                <LinkedIn />
+            <NavSocialLink href="https://www.instagram.com/sylainka12/">
+              <a target="_blank">
+                <Instagram />
               </a>
             </NavSocialLink>
           </NavSocialItem>
