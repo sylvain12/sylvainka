@@ -5,7 +5,8 @@ const GlobalStyle = createGlobalStyle`
   :root {
     /* colors */
     --color-text: black;
-    --color-background: red;
+    --red-color: '#ff5f6f';
+    --warning-color: '#ffc107';
     --light-color: #BFD7ED;
     --main-color: #003B73;
     --main-color-light: rgba(0, 59, 115, 0.2);
