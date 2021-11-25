@@ -24,10 +24,8 @@ const Home: NextPage = () => {
           rel="stylesheet"
         />
 
-        <link
-          href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet" />
+        {/* <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet" /> */}
       </Head>
       <GlobalStyle />
       <Header />
