@@ -18,7 +18,7 @@ export default function Contact() {
           Get in touch
         </Title>
         <ContactSubTitle>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex velit, beatae quis inventore totam consectetur architecto tenetur porro sed optio adipisci tempora tempore laboriosam excepturi! Labore.
+          I love new challenges, sharing experience, so if you want me for your next project, or if you want to share your experience with me, don't hesitate, contact me now.
         </ContactSubTitle>
 
 
@@ -75,7 +75,7 @@ export default function Contact() {
               <a target='_blank'>sylvain kadjo</a>
             </Link>
           </p>
-          <span>software developer from 🇨🇮</span>
+          <span>👨🏽‍💻 software developer from 🇨🇮</span>
 
         </ContactFooter>
       </ContactWrapper>
